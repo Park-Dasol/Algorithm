@@ -4,24 +4,24 @@ def auction(k, p, c, n):
     global cnt
     if cnt < c:
         cnt = c
-    if cnt == N:
+    if cnt >= N:
         return
-    if n >= N:
+
+    if N-n + c <= cnt:
         return
 
     for i in range(N):
-        if visit[i] == 0 and matrix[k][i] >= p:
+        if visit[i] == 0 and matrix[k][i] >= p and k!= i:
             visit[i] = 1
             auction(i, matrix[k][i], c + 1, n+1)
             visit[i] = 0
-    n += 1
 
 N = int(sys.stdin.readline())
 matrix = [list(map(int, sys.stdin.readline().rstrip())) for _ in range(N)]
 visit = [0] * N
 cnt = 1
 visit[0] = 1
-auction(0, 0, 1, 0)
+auction(0, 0, 1, 1)
 print(cnt)
 
 
