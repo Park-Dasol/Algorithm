@@ -15,6 +15,7 @@
 | 2021/02/27 | `15686치킨배달`, `14502연구소` |
 | 2021/02/28 | `3190뱀` |
 | 2021/03/03 | `14499주사위굴리기` |
+| 2021/03/04 | `14503로봇청소기` |
 
 
 
@@ -31,3 +32,4 @@
 | `15686치킨배달`     | https://www.acmicpc.net/problem/15686 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/15686.py |
 | `3190뱀`     | https://www.acmicpc.net/problem/3190 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/3190.py |
 | `14499주사위굴리기`     | https://www.acmicpc.net/problem/14499 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/14499.py |
+| `14503로봇청소기`     | https://www.acmicpc.net/problem/14503 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/14503.py |
