@@ -19,8 +19,7 @@
 | 2021/03/05 | `15683감시` |
 | 2021/03/06 | `16234인구이동` |
 | 2021/03/07 | `17144미세먼지안녕` |
-
-
+| 2021/03/08 | `14500테트로미노` |
 
 
 # 문제 
@@ -38,3 +37,4 @@
 | `15683감시`     | https://www.acmicpc.net/problem/15683 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/15683.py |
 | `16234인구이동`     | https://www.acmicpc.net/problem/16234 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/16234.py |
 | `17144미세먼지안녕`     | https://www.acmicpc.net/problem/17144 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/17144.py |
+| `14500테트로미노`     | https://www.acmicpc.net/problem/14500 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/14500.py |
