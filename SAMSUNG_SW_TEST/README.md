@@ -21,7 +21,7 @@
 | 2021/03/07 | `17144미세먼지안녕` |
 | 2021/03/08 | `14500테트로미노` |
 | 2021/03/09 | |
-| 2021/03/10 | `20056마법사 상어와 파이어볼` |
+| 2021/03/10 | `20056마법사 상어와 파이어볼`, `16236아기상어` |
 
 
 # 문제 
@@ -41,3 +41,4 @@
 | `17144미세먼지안녕`     | https://www.acmicpc.net/problem/17144 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/17144.py |
 | `14500테트로미노`     | https://www.acmicpc.net/problem/14500 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/14500.py |
 | `20056마법사 상어와 파이어볼`     | https://www.acmicpc.net/problem/20056 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/20056.py |
+| `16236아기상어`     | https://www.acmicpc.net/problem/16236 | https://github.com/Park-Dasol/Algorithm/blob/master/SAMSUNG_SW_TEST/16236.py |
