@@ -1,6 +1,8 @@
+from collections import deque
+
 def spread():
     while toms :
-        y, x = toms.pop(0)
+        y, x = toms.pop()
         for dir in range(4):
             ny = y + dy[dir]
             nx = x + dx[dir]
@@ -23,7 +25,7 @@ M, N = map(int, input().split())
 box = [list(map(int, input().split())) for _ in range(N)]
 
 
-toms = []
+toms = deque()
 after = []
 dy = [1, 0, -1, 0]
 dx = [0, 1, 0, -1]
