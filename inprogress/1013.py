@@ -1,29 +1,37 @@
 import re
 def check(source):
     global ans
-    A = re.split('100+1+', source)
-    for a in A:
-        if len(a) and a != source:
-            check(a)
-    B = re.split('01', source)
-    for b in B :
-        if len(b) and b != source:
-            check(b)
-    if len(B) == 0 or len(A) == 0:
-        ans = 'YES'
+    A = ''.join(re.split('100+1+',source))
     print(A)
+    if not len(A):
+        ans = 'YES'
+        return
+    if len(A) >= 4 and A != source:
+        check(A)
+    B = ''.join(re.split('01',source))
+    print('split', re.split('01',source))
     print(B)
+    if not len(B):
+        print('B')
+        ans = 'YES'
+        return
+    if len(B) >= 2 and B !=source:
+        check(B)
+
+
+
+
 
 
 
 N =int(input())
 # pattern = (100+1+ | 01)+
+
+
 for i in range(N):
     ans = 'NO'
     source = str(input())
     check(source)
-    print('-------------')
-
     print(ans)
 
 
