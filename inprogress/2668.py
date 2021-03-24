@@ -1,7 +1,7 @@
 def game(v, i):
     visit[v] = 1
 
-    for w in nums:
+    for w in nums[v]:
         if visit[w] == 0:
             game(w, i)
         elif visit[w] and w== i:
@@ -12,9 +12,9 @@ def game(v, i):
 
 N = int(input())
 
-nums = [0]
+nums = [[] for _ in range(N+1)]
 for i in range(N):
-    nums.append(int(input()))
+    nums[i+1].append(int(input()))
 result = []
 for i in range(N+1):
     visit = [0] * (N+1)
