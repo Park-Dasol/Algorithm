@@ -8,17 +8,29 @@ function solution(new_id) {
   return answer;
 }
 
+const specialChar = ['-','_', '.']
 
 function extra(words) {
   const i = 0
   while (i < words.length) {
     i++
     let a = words.charAt(i)
-    if ((typeof(a) === 'string') and  ) {
-      words.splice(i, 1)
+    if (typeof(a) === 'string') {
+      if (specialChar.includes(a)) {
+
+      }
     }
   }
 }
+
+
+b = isSpecialChar('.')
+console.log(b)
+function isCharacterALetter(char) {
+  return (/[a-zA-Z]/).test(char)
+}
+
+
 
 // console.log(typeof(1))
 // console.log(typeof('a'))
