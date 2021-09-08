@@ -16,9 +16,9 @@
 
 
 
-|문제번호|문제유형|문제링크|문제풀이|리드미|
+|문제번호|문제유형|문제이름|문제풀이|리드미|
 | ---- | ---- | ---- | ---- | ---- |
-| 77484 | 로또의 최고 순위와 최저 순위 | https://programmers.co.kr/learn/courses/30/lessons/77484 | https://github.com/Park-Dasol/Algorithm/blob/master/programmers/77484.js | https://github.com/Park-Dasol/Algorithm/blob/master/programmers/77484.md |
+| 77484 |  |로또의 최고 순위와 최저 순위| https://github.com/Park-Dasol/Algorithm/blob/master/programmers/77484.js | https://github.com/Park-Dasol/Algorithm/blob/master/programmers/77484.md |
 |      |  |      |      |      |
 
 
